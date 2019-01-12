@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F797DF21E99026007E4D1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797DE21E99026007E4D1B /* AppDelegate.m */; };
+		54F797E121E99027007E4D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F797E021E99027007E4D1B /* Assets.xcassets */; };
+		54F797E421E99027007E4D1B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F797E221E99027007E4D1B /* MainMenu.xib */; };
+		54F797E721E99027007E4D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797E621E99027007E4D1B /* main.m */; };
+		54F797F021E99050007E4D1B /* ZMSideBarCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797EF21E99050007E4D1B /* ZMSideBarCellView.m */; };
+		54F797F321E99660007E4D1B /* ZMSideBarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797F221E99660007E4D1B /* ZMSideBarData.m */; };
+		54F797F921E99F4A007E4D1B /* ZMSideBarViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797F821E99F4A007E4D1B /* ZMSideBarViewController+DataSource.m */; };
+		54F797FD21E99F68007E4D1B /* ZMSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F797FB21E99F68007E4D1B /* ZMSideBarViewController.m */; };
+		54F797FE21E99F68007E4D1B /* ZMSideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F797FC21E99F68007E4D1B /* ZMSideBarViewController.xib */; };
+		54F7980121E9B268007E4D1B /* ZMSideBarViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7980021E9B268007E4D1B /* ZMSideBarViewController+Delegate.m */; };
+		54F7980421E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7980321E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.m */; };
+		54F7980721E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F7980621E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54F797DA21E99026007E4D1B /* ZMSideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMSideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F797DD21E99026007E4D1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54F797DE21E99026007E4D1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54F797E021E99027007E4D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F797E321E99027007E4D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		54F797E521E99027007E4D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F797E621E99027007E4D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F797E821E99027007E4D1B /* ZMSideBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZMSideBar.entitlements; sourceTree = "<group>"; };
+		54F797EE21E99050007E4D1B /* ZMSideBarCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSideBarCellView.h; sourceTree = "<group>"; };
+		54F797EF21E99050007E4D1B /* ZMSideBarCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSideBarCellView.m; sourceTree = "<group>"; };
+		54F797F121E99660007E4D1B /* ZMSideBarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSideBarData.h; sourceTree = "<group>"; };
+		54F797F221E99660007E4D1B /* ZMSideBarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSideBarData.m; sourceTree = "<group>"; };
+		54F797F721E99F4A007E4D1B /* ZMSideBarViewController+DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMSideBarViewController+DataSource.h"; sourceTree = "<group>"; };
+		54F797F821E99F4A007E4D1B /* ZMSideBarViewController+DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZMSideBarViewController+DataSource.m"; sourceTree = "<group>"; };
+		54F797FA21E99F68007E4D1B /* ZMSideBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSideBarViewController.h; sourceTree = "<group>"; };
+		54F797FB21E99F68007E4D1B /* ZMSideBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMSideBarViewController.m; sourceTree = "<group>"; };
+		54F797FC21E99F68007E4D1B /* ZMSideBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMSideBarViewController.xib; sourceTree = "<group>"; };
+		54F797FF21E9B268007E4D1B /* ZMSideBarViewController+Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMSideBarViewController+Delegate.h"; sourceTree = "<group>"; };
+		54F7980021E9B268007E4D1B /* ZMSideBarViewController+Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZMSideBarViewController+Delegate.m"; sourceTree = "<group>"; };
+		54F7980221E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMSideBarViewController+TextFieldDelegate.h"; sourceTree = "<group>"; };
+		54F7980321E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZMSideBarViewController+TextFieldDelegate.m"; sourceTree = "<group>"; };
+		54F7980521E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMSideBarViewController+DrageDrop.h"; sourceTree = "<group>"; };
+		54F7980621E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZMSideBarViewController+DrageDrop.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F797D721E99026007E4D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F797D121E99026007E4D1B = {
+			isa = PBXGroup;
+			children = (
+				54F797DC21E99026007E4D1B /* ZMSideBar */,
+				54F797DB21E99026007E4D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F797DB21E99026007E4D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F797DA21E99026007E4D1B /* ZMSideBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F797DC21E99026007E4D1B /* ZMSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				54F797EE21E99050007E4D1B /* ZMSideBarCellView.h */,
+				54F797EF21E99050007E4D1B /* ZMSideBarCellView.m */,
+				54F797F121E99660007E4D1B /* ZMSideBarData.h */,
+				54F797F221E99660007E4D1B /* ZMSideBarData.m */,
+				54F797F721E99F4A007E4D1B /* ZMSideBarViewController+DataSource.h */,
+				54F797F821E99F4A007E4D1B /* ZMSideBarViewController+DataSource.m */,
+				54F797FF21E9B268007E4D1B /* ZMSideBarViewController+Delegate.h */,
+				54F7980021E9B268007E4D1B /* ZMSideBarViewController+Delegate.m */,
+				54F7980221E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.h */,
+				54F7980321E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.m */,
+				54F7980521E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.h */,
+				54F7980621E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.m */,
+				54F797FA21E99F68007E4D1B /* ZMSideBarViewController.h */,
+				54F797FB21E99F68007E4D1B /* ZMSideBarViewController.m */,
+				54F797FC21E99F68007E4D1B /* ZMSideBarViewController.xib */,
+				54F797DD21E99026007E4D1B /* AppDelegate.h */,
+				54F797DE21E99026007E4D1B /* AppDelegate.m */,
+				54F797E021E99027007E4D1B /* Assets.xcassets */,
+				54F797E221E99027007E4D1B /* MainMenu.xib */,
+				54F797E521E99027007E4D1B /* Info.plist */,
+				54F797E621E99027007E4D1B /* main.m */,
+				54F797E821E99027007E4D1B /* ZMSideBar.entitlements */,
+			);
+			path = ZMSideBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F797D921E99026007E4D1B /* ZMSideBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F797EB21E99027007E4D1B /* Build configuration list for PBXNativeTarget "ZMSideBar" */;
+			buildPhases = (
+				54F797D621E99026007E4D1B /* Sources */,
+				54F797D721E99026007E4D1B /* Frameworks */,
+				54F797D821E99026007E4D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMSideBar;
+			productName = ZMSideBar;
+			productReference = 54F797DA21E99026007E4D1B /* ZMSideBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F797D221E99026007E4D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yuri Boyka";
+				TargetAttributes = {
+					54F797D921E99026007E4D1B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 54F797D521E99026007E4D1B /* Build configuration list for PBXProject "ZMSideBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F797D121E99026007E4D1B;
+			productRefGroup = 54F797DB21E99026007E4D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F797D921E99026007E4D1B /* ZMSideBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F797D821E99026007E4D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F797E121E99027007E4D1B /* Assets.xcassets in Resources */,
+				54F797E421E99027007E4D1B /* MainMenu.xib in Resources */,
+				54F797FE21E99F68007E4D1B /* ZMSideBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F797D621E99026007E4D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F797F021E99050007E4D1B /* ZMSideBarCellView.m in Sources */,
+				54F797F321E99660007E4D1B /* ZMSideBarData.m in Sources */,
+				54F797FD21E99F68007E4D1B /* ZMSideBarViewController.m in Sources */,
+				54F797E721E99027007E4D1B /* main.m in Sources */,
+				54F797F921E99F4A007E4D1B /* ZMSideBarViewController+DataSource.m in Sources */,
+				54F7980721E9C15F007E4D1B /* ZMSideBarViewController+DrageDrop.m in Sources */,
+				54F7980421E9C0A1007E4D1B /* ZMSideBarViewController+TextFieldDelegate.m in Sources */,
+				54F7980121E9B268007E4D1B /* ZMSideBarViewController+Delegate.m in Sources */,
+				54F797DF21E99026007E4D1B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54F797E221E99027007E4D1B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F797E321E99027007E4D1B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F797E921E99027007E4D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54F797EA21E99027007E4D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54F797EC21E99027007E4D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZMSideBar/ZMSideBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				INFOPLIST_FILE = ZMSideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMSideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F797ED21E99027007E4D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZMSideBar/ZMSideBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQW337MH2W;
+				INFOPLIST_FILE = ZMSideBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.ZMSideBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F797D521E99026007E4D1B /* Build configuration list for PBXProject "ZMSideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F797E921E99027007E4D1B /* Debug */,
+				54F797EA21E99027007E4D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F797EB21E99027007E4D1B /* Build configuration list for PBXNativeTarget "ZMSideBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F797EC21E99027007E4D1B /* Debug */,
+				54F797ED21E99027007E4D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F797D221E99026007E4D1B /* Project object */;
+}
